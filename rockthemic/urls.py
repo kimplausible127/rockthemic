@@ -23,7 +23,8 @@ urlpatterns = [
     path('account/', include('account.urls')),
     # path('social-auth/',
     #      include('social_django.urls', namespace='social')),
-    path('images/', include('images.urls', namespace=))
+    path('images/', include('images.urls', namespace='images')),
+    path('songs/', include('songs.urls')),
 ]
 
 if settings.DEBUG:
